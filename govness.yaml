@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "cl-servicios-digitales.plain-language-rewriter-es"
+name: "Plain-language rewriting skill (Spanish)"
+type: "skill"
+version: "0.8.0"
+summary: "Rewrites administrative Spanish into plain language that follows the State's writing guide."
+description: "Rules, examples and a checklist from the State's plain-language guide, packaged as an agent skill. Keeps legal meaning; flags terms it cannot simplify safely."
+publisher:
+  environment: "cl-servicios-digitales"
+  body: "Oficina de Servicios Digitales del Estado"
+languages: ["es"]
+license: "CC-BY-4.0"
+interfaces:
+  protocol: "other"
+links:
+  repo: "https://github.com/govness-demo/plain-language-rewriter-es"
+domains: ["public-administration"]
